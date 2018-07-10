@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TituloJava">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AlteraTitulo/TituloJava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

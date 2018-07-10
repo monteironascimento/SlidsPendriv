@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>\\Mac\Home\Documents\MonteiroSistemas\amor\OrganizadorTvPendriv\dist\OrganizadorTvPendriv.jar</jar>
+  <outfile>\\Mac\Home\Documents\MonteiroSistemas\amor\OrganizadorTvPendriv\Install\TvPendriv.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>\\Mac\Home\Documents\MonteiroSistemas\amor\OrganizadorTvPendriv\Instalador\Icon.ico</icon>
+  <singleInstance>
+    <mutexName>Up Gestão Comercial</mutexName>
+    <windowTitle>Up Gestão</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>C:\Program Files\Java\jre8\bin</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.7.0_1</minVersion>
+    <maxVersion>1.9.0_60</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <messages>
+    <startupErr>Ocorreu um erro ao iniciar o aplicativo.</startupErr>
+    <bundledJreErr>Esta aplicação foi configurado para usar um pacote Java Runtime Environment , mas o tempo de execução está ausente ou corrompido .</bundledJreErr>
+    <jreVersionErr>Esta aplicação requer um Java Runtime Environment</jreVersionErr>
+    <launcherErr>O registro refere-se a uma instalação inexistente Java Runtime Environment ou o tempo de execução está corrompido.</launcherErr>
+    <instanceAlreadyExistsMsg>Uma instância do aplicativo já está em execução .</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
